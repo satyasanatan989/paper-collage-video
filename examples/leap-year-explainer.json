@@ -1,0 +1,333 @@
+{
+  "title": "Why do we have a leap year? (demo, code-only, no pictures needed)",
+  "format": "9:16",
+  "fps": 30,
+  "duration": 16,
+  "audio": "audio.mp3",
+  "font": "Anton",
+  "columns": 3,
+  "finale": {
+    "at": 14.1,
+    "dur": 1.4
+  },
+  "stations": [
+    {
+      "start": 0,
+      "sheet": "indigo",
+      "elements": [
+        {
+          "type": "dots",
+          "x": 120,
+          "y": 200,
+          "d": 840,
+          "color": "#2D4490"
+        },
+        {
+          "type": "disc",
+          "x": 290,
+          "y": 330,
+          "d": 500,
+          "color": "marigold",
+          "at": 0,
+          "in": "none",
+          "rise": {
+            "from": 900,
+            "dur": 1.8
+          }
+        },
+        {
+          "type": "orbit",
+          "x": 540,
+          "y": 580,
+          "r": 380,
+          "count": 10,
+          "kind": "star",
+          "at": 0.3
+        },
+        {
+          "type": "word",
+          "text": "Why do we",
+          "x": 120,
+          "y": 1050,
+          "size": 130,
+          "color": "cream",
+          "beat": 1,
+          "rot": -4
+        },
+        {
+          "type": "word",
+          "text": "need a",
+          "x": 330,
+          "y": 1240,
+          "size": 120,
+          "color": "marigold",
+          "beat": 2,
+          "rot": 3
+        },
+        {
+          "type": "word",
+          "text": "leap year?",
+          "x": 140,
+          "y": 1420,
+          "size": 170,
+          "color": "vermilion",
+          "beat": 3,
+          "rot": -2
+        }
+      ]
+    },
+    {
+      "start": 2.5,
+      "sheet": "cream",
+      "elements": [
+        {
+          "type": "dots",
+          "x": 80,
+          "y": 140,
+          "d": 920,
+          "color": "#DFC9A4"
+        },
+        {
+          "type": "disc",
+          "x": 330,
+          "y": 260,
+          "d": 420,
+          "color": "marigold",
+          "beat": 0,
+          "pulse": 0.06
+        },
+        {
+          "type": "orbit",
+          "x": 540,
+          "y": 470,
+          "r": 330,
+          "count": 1,
+          "d": 110,
+          "kind": "dot",
+          "speed": 2.2,
+          "at": 2.7
+        },
+        {
+          "type": "word",
+          "text": "One trip around the sun",
+          "x": 60,
+          "y": 980,
+          "size": 92,
+          "color": "indigo",
+          "beat": 1,
+          "rot": -3
+        },
+        {
+          "type": "word",
+          "text": "365 days",
+          "x": 110,
+          "y": 1170,
+          "size": 180,
+          "color": "vermilion",
+          "beat": 3,
+          "rot": 2
+        },
+        {
+          "type": "word",
+          "text": "+ 6 hours",
+          "x": 420,
+          "y": 1420,
+          "size": 150,
+          "color": "marigold",
+          "beat": 5,
+          "rot": -4
+        },
+        {
+          "type": "tape",
+          "x": 360,
+          "y": 1400,
+          "beat": 6,
+          "rot": -30
+        }
+      ]
+    },
+    {
+      "start": 6,
+      "sheet": "vermilion",
+      "elements": [
+        {
+          "type": "dots",
+          "x": 60,
+          "y": 520,
+          "d": 960,
+          "color": "#C22E16"
+        },
+        {
+          "type": "calendar",
+          "x": 330,
+          "y": 180,
+          "w": 420,
+          "pages": [
+            "2024",
+            "2023",
+            "2022",
+            "2021"
+          ],
+          "last": "+1",
+          "beat": 0,
+          "rot": -4,
+          "color": "indigo"
+        },
+        {
+          "type": "word",
+          "text": "6 hours",
+          "x": 90,
+          "y": 860,
+          "size": 150,
+          "color": "cream",
+          "beat": 1,
+          "rot": -3
+        },
+        {
+          "type": "word",
+          "text": "x 4 years",
+          "x": 380,
+          "y": 1060,
+          "size": 150,
+          "color": "marigold",
+          "beat": 3,
+          "rot": 3
+        },
+        {
+          "type": "word",
+          "text": "= 1 whole day",
+          "x": 80,
+          "y": 1290,
+          "size": 140,
+          "color": "ink",
+          "beat": 5,
+          "rot": -2
+        }
+      ]
+    },
+    {
+      "start": 10,
+      "sheet": "marigold",
+      "elements": [
+        {
+          "type": "dots",
+          "x": 40,
+          "y": 260,
+          "d": 1000,
+          "color": "#E58E12",
+          "size": 34
+        },
+        {
+          "type": "clock",
+          "x": 600,
+          "y": 180,
+          "d": 400,
+          "beat": 0,
+          "rot": 6,
+          "color": "indigo"
+        },
+        {
+          "type": "calendar",
+          "x": 90,
+          "y": 300,
+          "w": 440,
+          "pages": [],
+          "last": "29",
+          "beat": 1,
+          "rot": -5
+        },
+        {
+          "type": "text",
+          "text": "February",
+          "x": 120,
+          "y": 880,
+          "size": 90,
+          "beat": 2,
+          "rot": -5
+        },
+        {
+          "type": "word",
+          "text": "So every 4 years",
+          "x": 60,
+          "y": 1050,
+          "size": 120,
+          "color": "indigo",
+          "beat": 2,
+          "rot": -2
+        },
+        {
+          "type": "word",
+          "text": "Feb gets a 29th",
+          "x": 140,
+          "y": 1260,
+          "size": 120,
+          "color": "vermilion",
+          "beat": 4,
+          "rot": 3
+        },
+        {
+          "type": "heart",
+          "x": 760,
+          "y": 1460,
+          "w": 200,
+          "beat": 5,
+          "pulse": true,
+          "color": "vermilion"
+        }
+      ]
+    },
+    {
+      "start": 13,
+      "sheet": "teal",
+      "elements": [
+        {
+          "type": "dots",
+          "x": 60,
+          "y": 380,
+          "d": 960,
+          "color": "#11625B"
+        },
+        {
+          "type": "word",
+          "text": "That's a",
+          "x": 260,
+          "y": 560,
+          "size": 150,
+          "color": "cream",
+          "beat": 0,
+          "rot": -3
+        },
+        {
+          "type": "word",
+          "text": "leap year!",
+          "x": 110,
+          "y": 780,
+          "size": 200,
+          "color": "marigold",
+          "beat": 1,
+          "rot": 2
+        },
+        {
+          "type": "burst",
+          "x": 520,
+          "y": 900,
+          "kind": "confetti",
+          "d": 60,
+          "count": 12,
+          "beat": 1
+        },
+        {
+          "type": "sprinkle",
+          "x": 120,
+          "y": 1150,
+          "w": 820,
+          "h": 360,
+          "count": 26,
+          "kind": "star",
+          "d": 70,
+          "beat": 2
+        }
+      ]
+    }
+  ]
+}

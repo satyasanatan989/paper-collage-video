@@ -1,0 +1,22 @@
+{
+  "name": "paper-collage-video",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Collage renders/video.mp4 --crf=19"
+  },
+  "dependencies": {
+    "@fontsource/anton": "5.2.6",
+    "@fontsource/caveat": "5.2.6",
+    "@fontsource/rozha-one": "5.2.6",
+    "@remotion/cli": "4.0.545",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.545"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Lyric video pattern: 45 s Hindi hook, 9 stations. Placeholder lyrics (original filler words) and cut-outs you make with scripts/cutout.py",
+  "format": "9:16",
+  "fps": 30,
+  "duration": 45.02,
+  "audio": "audio.mp3",
+  "font": "Rozha One",
+  "columns": 3,
+  "finale": {"at": 43.05, "dur": 1.5},
+  "flyers": [
+    {"src": "cut/parrot.png", "w": 330, "keys": [
+      {"t": 30.5, "station": 6, "x": 660, "y": 700},
+      {"t": 33.4, "station": 6, "x": 1060, "y": 760, "arc": 170},
+      {"t": 34.1, "station": 7, "x": 700, "y": 800, "arc": 40}
+    ]}
+  ],
+  "stations": [
+    {"start": 0, "sheet": "indigo", "elements": [
+      {"type": "dots", "x": 120, "y": 160, "d": 840, "color": "#2D4490"},
+      {"type": "disc", "x": 250, "y": 420, "d": 580, "color": "#F3DFA8", "craters": true, "in": "none", "at": 0, "rise": {"from": 1080, "dur": 1.7}}
+    ]},
+    {"start": 1.93, "sheet": "indigo", "elements": [
+      {"type": "dots", "x": 430, "y": 620, "d": 760, "color": "#2D4490"},
+      {"type": "calendar", "x": 80, "y": 170, "w": 400, "pages": ["१", "२", "३", "४", "५"], "beat": 0, "rot": -5},
+      {"type": "image", "src": "cut/man.png", "x": 10, "y": 720, "w": 640, "beat": 0, "rot": -2},
+      {"type": "heart", "x": 175, "y": 1225, "w": 210, "beat": 2, "pulse": 0.2, "in": "pop", "z": 4},
+      {"type": "word", "text": "हर", "x": 560, "y": 200, "size": 170, "color": "marigold", "beat": 0, "rot": 4},
+      {"type": "word", "text": "पल", "x": 680, "y": 420, "size": 170, "color": "cream", "beat": 1, "rot": -4},
+      {"type": "word", "text": "तेरी", "x": 610, "y": 760, "size": 200, "color": "vermilion", "beat": 2, "rot": 3},
+      {"type": "word", "text": "याद", "x": 600, "y": 1220, "size": 200, "color": "marigold", "beat": 4, "rot": -2}
+    ]},
+    {"start": 8.66, "sheet": "marigold", "elements": [
+      {"type": "dots", "x": 60, "y": 420, "d": 960, "color": "#E58E12"},
+      {"type": "image", "src": "cut/lotus.png", "x": -30, "y": 1330, "w": 640, "beat": 2, "rot": -7, "z": 1},
+      {"type": "image", "src": "cut/couple_close.png", "x": 120, "y": 560, "w": 860, "beat": 0, "rot": 1},
+      {"type": "tape", "x": 110, "y": 640, "beat": 1, "rot": -38},
+      {"type": "tape", "x": 790, "y": 640, "beat": 1, "rot": 36},
+      {"type": "word", "text": "तू", "x": 110, "y": 170, "size": 170, "color": "ink", "beat": 0, "rot": -4},
+      {"type": "word", "text": "साथ", "x": 400, "y": 200, "size": 180, "color": "vermilion", "beat": 1, "rot": 3},
+      {"type": "word", "text": "है", "x": 760, "y": 410, "size": 150, "color": "cream", "beat": 2, "rot": -3}
+    ]},
+    {"start": 12.4, "sheet": "cream", "elements": [
+      {"type": "dots", "x": 40, "y": 110, "d": 1000, "color": "#DFC9A4"},
+      {"type": "clock", "x": 170, "y": 210, "d": 740, "beat": 0, "rot": -3},
+      {"type": "orbit", "x": 540, "y": 580, "r": 440, "count": 2, "kind": "dot", "d": 132, "speed": 1.15, "squash": 1},
+      {"type": "image", "src": "cut/couple.png", "x": 500, "y": 1030, "w": 540, "beat": 1, "rot": 2},
+      {"type": "word", "text": "हर", "x": 40, "y": 1000, "size": 150, "color": "indigo", "beat": 0, "rot": -4},
+      {"type": "word", "text": "पल", "x": 180, "y": 1190, "size": 150, "color": "vermilion", "beat": 1, "rot": 3},
+      {"type": "word", "text": "तेरी", "x": 40, "y": 1380, "size": 170, "color": "ink", "beat": 2, "rot": -2},
+      {"type": "word", "text": "याद", "x": 130, "y": 1590, "size": 150, "color": "vermilion", "beat": 4, "rot": -3}
+    ]},
+    {"start": 17.97, "sheet": "indigo", "elements": [
+      {"type": "disc", "x": -130, "y": 230, "d": 840, "color": "marigold", "in": "none"},
+      {"type": "dots", "x": -130, "y": 230, "d": 840, "color": "#DD8A0C", "size": 34, "z": 1},
+      {"type": "orbit", "x": 540, "y": 760, "r": 440, "count": 16, "kind": "star"},
+      {"type": "image", "src": "cut/woman.png", "x": 30, "y": 500, "w": 1020, "beat": 0},
+      {"type": "image", "src": "cut/eye.png", "x": 30, "y": 1270, "w": 1020, "beat": 4, "rot": -3, "z": 4},
+      {"type": "word", "text": "तू", "x": 70, "y": 170, "size": 160, "color": "marigold", "beat": 0, "rot": -4},
+      {"type": "word", "text": "साथ", "x": 330, "y": 150, "size": 170, "color": "vermilion", "beat": 1, "rot": 2},
+      {"type": "word", "text": "है", "x": 800, "y": 190, "size": 150, "color": "cream", "beat": 2, "rot": 5}
+    ]},
+    {"start": 24.47, "sheet": "vermilion", "elements": [
+      {"type": "disc", "x": 90, "y": 330, "d": 640, "color": "marigold", "rise": {"from": 530, "dur": 2}},
+      {"type": "image", "src": "cut/tree.png", "x": 350, "y": 350, "w": 690, "beat": 0, "rot": 2},
+      {"type": "sprinkle", "x": 380, "y": 335, "w": 620, "h": 330, "count": 48, "kind": "petal", "step": 0.05, "at": 24.82},
+      {"type": "image", "src": "cut/pour.png", "x": 20, "y": 1050, "w": 1040, "beat": 2, "rot": -2, "z": 4},
+      {"type": "word", "text": "जीवन", "x": 50, "y": 170, "size": 165, "color": "cream", "beat": 0, "rot": -3},
+      {"type": "word", "text": "एक", "x": 60, "y": 760, "size": 160, "color": "marigold", "beat": 1, "rot": 3},
+      {"type": "word", "text": "सफ़र", "x": 420, "y": 900, "size": 180, "color": "ink", "beat": 3, "rot": -3}
+    ]},
+    {"start": 30.04, "sheet": "cream", "elements": [
+      {"type": "dots", "x": 90, "y": 120, "d": 900, "color": "#E9B8A3"},
+      {"type": "dots", "x": 150, "y": 1040, "d": 800, "color": "#EFCB8B"},
+      {"type": "image", "src": "cut/window.png", "x": 150, "y": 130, "w": 650, "beat": 0, "rot": -3},
+      {"type": "tape", "x": 90, "y": 165, "at": 30.24, "rot": -42},
+      {"type": "word", "text": "ये", "x": 70, "y": 1240, "size": 190, "color": "vermilion", "beat": 0, "rot": -5},
+      {"type": "word", "text": "कहता", "x": 330, "y": 1260, "size": 200, "color": "indigo", "beat": 1, "rot": 3},
+      {"type": "word", "text": "है", "x": 700, "y": 1530, "size": 170, "color": "marigold", "beat": 2, "rot": -4}
+    ]},
+    {"start": 33.81, "sheet": "indigo", "elements": [
+      {"type": "dots", "x": 60, "y": 520, "d": 960, "color": "#2D4490"},
+      {"type": "image", "src": "cut/man_lamp.png", "x": -200, "y": 790, "w": 560, "beat": 0, "in": "none", "move": {"to": [240, 0], "beat": 0, "ease": "beats", "steps": 6}},
+      {"type": "image", "src": "cut/woman_lamp.png", "x": 760, "y": 790, "w": 500, "beat": 0, "in": "none", "move": {"to": [-230, 0], "beat": 0, "ease": "beats", "steps": 6}},
+      {"type": "icon", "kind": "lamp", "x": 60, "y": 1680, "d": 120, "beat": 0, "in": "pop"},
+      {"type": "icon", "kind": "lamp", "x": 290, "y": 1680, "d": 120, "beat": 1, "in": "pop"},
+      {"type": "icon", "kind": "lamp", "x": 520, "y": 1680, "d": 120, "beat": 2, "in": "pop"},
+      {"type": "icon", "kind": "lamp", "x": 750, "y": 1680, "d": 120, "beat": 3, "in": "pop"},
+      {"type": "heart", "x": 340, "y": 640, "w": 400, "beat": 5, "in": "pop", "pulse": 0.1, "z": 6},
+      {"type": "burst", "x": 500, "y": 860, "kind": "marigold", "d": 84, "count": 10, "z": 7},
+      {"type": "word", "text": "हर", "x": 50, "y": 160, "size": 165, "color": "marigold", "beat": 0, "rot": -4},
+      {"type": "word", "text": "पल", "x": 400, "y": 150, "size": 165, "color": "vermilion", "beat": 1, "rot": 3},
+      {"type": "word", "text": "तेरी", "x": 60, "y": 390, "size": 190, "color": "cream", "beat": 2, "rot": 2},
+      {"type": "word", "text": "याद", "x": 640, "y": 370, "size": 180, "color": "marigold", "beat": 4, "rot": 3}
+    ]},
+    {"start": 41.28, "sheet": "marigold", "elements": [
+      {"type": "dots", "x": 30, "y": 260, "d": 1020, "color": "#E58E12", "size": 36},
+      {"type": "heart", "x": 250, "y": 380, "w": 580, "beat": 0, "in": "none", "mend": {"beat": 1}, "z": 3},
+      {"type": "tape", "x": 420, "y": 520, "beat": 2, "rot": 84, "w": 250},
+      {"type": "image", "src": "cut/couple_sit.png", "x": 30, "y": 880, "w": 1020, "beat": 0},
+      {"type": "word", "text": "तू", "x": 80, "y": 160, "size": 140, "color": "ink", "beat": 0, "rot": -4},
+      {"type": "word", "text": "साथ", "x": 340, "y": 140, "size": 150, "color": "vermilion", "beat": 1, "rot": 2},
+      {"type": "word", "text": "है", "x": 790, "y": 170, "size": 140, "color": "cream", "beat": 2, "rot": 5}
+    ]}
+  ]
+}
