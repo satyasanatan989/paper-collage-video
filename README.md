@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/API_keys-none-2ea44f?style=for-the-badge" alt="No API keys">
-  <img src="https://img.shields.io/badge/Agent_Skill-Claude_Code_·_Codex-7c3aed?style=for-the-badge" alt="Agent skill">
+  <img src="https://img.shields.io/badge/Agent_Skill-Claude_Code_·_Antigravity_·_Codex-7c3aed?style=for-the-badge" alt="Agent skill">
   <img src="https://img.shields.io/badge/Rendered_with-Remotion-0B84F3?style=for-the-badge" alt="Remotion">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT">
 </p>
@@ -31,7 +31,7 @@ Collage explainers and kinetic lyric videos are everywhere on Reels, Shorts and 
 After Effects skills, or chaining paid AI tools that **eat credits and need API keys**.
 
 ## ✨ The fix
-An open **agent skill**: you ask Claude Code (or Codex, or any agent that reads `SKILL.md`) in plain words,
+An open **agent skill**: you ask Claude Code (or Antigravity, Codex, or any agent that reads `SKILL.md`) in plain words,
 and it builds the video **on your own computer**:
 
 - ✂️ **Torn paper, scissor-cut stickers, tape, halftone dots**: the editorial collage look
@@ -66,6 +66,8 @@ python paper-collage-video/scripts/check_setup.py
 
 Then give it to your agent:
 - **Claude Code**: copy the folder to `~/.claude/skills/paper-collage-video/` (all projects) or `.claude/skills/` in one project.
+- **Google Antigravity**: copy the folder to `~/.gemini/antigravity/skills/paper-collage-video/` (all workspaces)
+  or `<your workspace>/.agents/skills/paper-collage-video/` (one workspace), then restart Antigravity.
 - **Codex / other agents**: keep the folder in your project; the agent reads `AGENTS.md`.
 
 **Try it without an agent:**
